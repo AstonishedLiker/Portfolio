@@ -660,6 +660,10 @@ video {
   justify-content: space-around;
 }
 
+.justify-evenly{
+  justify-content: space-evenly;
+}
+
 .gap-3{
   gap: 0.75rem;
 }
