@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body class="flex font-poppins items-center justify-center min-h-screen bg-[url('background.jpg')] bg-cover bg-no-repeat backdrop-blur-[1vmax] backdrop p-10"> <!-- I had to use vmax or the blur changes based on the zoom level...? Whatever, works now. -->
+    <div class="bg-[#f7f7f7] grid w-[650px] h-auto p-5 rounded-[10px] drop-shadow-lg mx-auto gap-3">
+        <p class="text-[29px] text-[#333333] font-semibold">Hey!</p>
+        <p class="text-label text-[#333333]">
+            I'm Liker, a 14-year-old French UI designer and developer, passionate about creating stunning and user-friendly interfaces.
+            I'm fluent in both French and English (currently learning German), making it easy for me to collaborate with teams from around the world!
+            I'm always pushing my programming skills forward and currently diving into Compilers, C, C++ and Node.js, on top of my solid experience with C#, Lua (with it's subset Luau), and Python 3.
+        </p>
+        <p class="text-label text-[#333333]">
+            I'm really passionate about web development, both frontend and backend.
+            At the moment, I'm diving into TailwindCSS, and I'm excited to be using it to create this portfolio page!
+        </p>
+        <p class="text-label text-[#333333]">
+            I'm also interested in cybersecurity, and I'm working on ways to protect systems from bad actors.
+            Keeping the online world safe is something I'm passionate about, and I'm always looking for new ways to improve it's security.
+        </p>
+        <div class="w-[100%] h-[1px] bg-slate-800 bg-opacity-15 rounded-md my-[6px]"></div> <!-- Divider -->
+        <p class="text-small-title text-[#333333] font-semibold">Positions</p>
+        <div class="grid rounded-[6px] position-rectangle bg-card-color border-[#d6d6d6] border-[1.5px] h-auto gap-4 p-4 perspective-1000"> <!-- Position Rectangle -->
+            <div class="flex items-center font-rubik gap-x-4"> <!-- Holds Position Icon and Position Title -->
+                <img class="bg-icon-color rounded-full w-[40px] h-[40px] border-[#c9c9c9] border-[1.5px]" src="icons/openac_monochrome.png">
+                <p class="text-position-title text-[#333333] font-medium">OpenAC</p>
+                <p class="text-position-title text-[#8c8c8c] ml-auto">Founder</p>
+            </div>
+            <p class="text-label text-[#333333]">
+                As the Founder of OpenAC, I worked with Unlimited_Objects (Co-Founder) and Müsli (Developer) to create a strong anticheat system that helps keep your game safe from cheaters.
+                OpenAC offers around-the-clock AI support, customized solutions, and advanced protection to stop cheaters in their tracks.
+                Plus, it's really easy to use with its simple API.
+            </p>
+            <div class="flex items-center font-rubik bg-[#e2e2e2] border-[#d6d6d6] border-[1.5px] rounded-[12px] p-4 gap-6 h-auto">
+                <div onclick="window.location='https://open-ac.xyz/';" class="flex justify-around bg-button-link-color hover:bg-[#e8e8e8] border-[#d6d6d6] border-[1.5px] rounded-full cursor-pointer w-auto h-[20px] items-center p-4 -m-2 gap-x-2">
+                    <img class="bg-icon-color rounded-full w-[20px] h-[20px] border-[#c9c9c9] border-[1.5px]" src="icons/website_monochrome.png">
+                    <p class="text-position-link">Website</p>
+                </div>
+                <div onclick="window.location='https://github.com/Open-AC/';" class="flex justify-around bg-button-link-color hover:bg-[#e8e8e8] border-[#d6d6d6] border-[1.5px] rounded-full cursor-pointer w-auto h-[20px] items-center p-4 -m-2 gap-x-2">
+                    <img class="bg-icon-color rounded-full w-[20px] h-[20px] border-[#c9c9c9] border-[1.5px]" src="icons/github_monochrome.png">
+                    <p class="text-position-link">GitHub</p>
+                </div>
+                <div onclick="window.location='https://discord.gg/mWHmJgGtuP';" class="flex justify-around bg-button-link-color hover:bg-[#e8e8e8] border-[#d6d6d6] border-[1.5px] rounded-full cursor-pointer w-auto h-[20px] items-center p-4 -m-2 gap-x-2">
+                    <img class="bg-icon-color rounded-full w-[20px] h-[20px] border-[#c9c9c9] border-[1.5px]" src="icons/discord_monochrome.png">
+                    <p class="text-position-link">Discord</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-[100%] h-[1px] bg-slate-800 bg-opacity-15 rounded-md my-[6px]"></div> <!-- Divider -->
+        <p class="text-small-title text-[#333333] font-semibold">Past Work</p>
+        <div class="grid rounded-[6px] position-rectangle bg-card-color border-[#d6d6d6] border-[1.5px] h-auto gap-4 p-4 perspective-1000"> <!-- Work Rectangle -->
+            <div class="flex items-center font-rubik gap-x-4"> <!-- Holds Work Title -->
+                <p class="text-position-title text-[#333333] font-medium">SecureLuaVirtualMachine</p>
+                <p class="text-position-title text-[#8c8c8c] ml-auto">Lua Sandboxing Utility</p> <!-- Short Description -->
+            </div>
+            <p class="text-label text-[#333333]">
+                SLVM (SecureLuaVirtualMachine) is a Lua virtual machine designed to safely run untrusted user code for education purposes, like tutorials, for the Roblox Game Engine.
+                Built on top of the FiOne Project by Rerumu, SLVM offers powerful features like closure hooking, read/write hooks, and custom variables through the Lua Environment table.
+                It also includes a rules system to block access to sensitive elements, and optional settings for call sandboxing and loop throttling to prevent vulnerabilities.
+            </p>
+            <div class="flex items-center font-rubik bg-[#e2e2e2] border-[#d6d6d6] border-[1.5px] rounded-[12px] p-4 gap-6 h-auto">
+                <div onclick="window.location='https://devforum.roblox.com/t/secureluavirtualmachine-controlled-execution-environment/2774729';" class="flex justify-around bg-button-link-color hover:bg-[#e8e8e8] border-[#d6d6d6] border-[1.5px] rounded-full cursor-pointer w-auto h-[20px] items-center p-4 -m-2 gap-x-2">
+                    <img class="bg-icon-color rounded-full w-[20px] h-[20px] border-[#c9c9c9] border-[1.5px]" src="icons/roblox_monochrome.png">
+                    <p class="text-position-link">DevForum</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid rounded-[6px] position-rectangle bg-card-color border-[#d6d6d6] border-[1.5px] h-auto gap-4 p-4 perspective-1000"> <!-- Work Rectangle -->
+            <div class="flex items-center font-rubik gap-x-4"> <!-- Holds Work Title -->
+                <p class="text-position-title text-[#333333] font-medium">ER:LC AutoRob Tool</p>
+                <p class="text-position-title text-[#8c8c8c] ml-auto">Robbery Minigame Automation</p> <!-- Short Description -->
+            </div>
+            <p class="text-label text-[#333333]">
+                The ERLC Auto-Rob Tool, created by me and IceMinister, is a tool made in the C# programming language designed to automate minigames in 'Emergency Response: Liberty County' (ERLC).
+                It simplifies tasks like lockpicking, ATM robberies, and jewelry robbing by automating these actions, making gameplay smoother and more efficient.
+                You can simply open the tool, select the task, and let it do the work, saving you time and effort in the game.
+            </p>
+            <div class="flex items-center font-rubik bg-[#e2e2e2] border-[#d6d6d6] border-[1.5px] rounded-[12px] p-4 gap-6 h-auto">
+                <div onclick="window.location='https://github.com/IceMinisterq/ERLC-Auto-Rob-Tool';" class="flex justify-around bg-button-link-color hover:bg-[#e8e8e8] border-[#d6d6d6] border-[1.5px] rounded-full cursor-pointer w-auto h-[20px] items-center p-4 -m-2 gap-x-2">
+                    <img class="bg-icon-color rounded-full w-[20px] h-[20px] border-[#c9c9c9] border-[1.5px]" src="icons/github_monochrome.png">
+                    <p class="text-position-link">GitHub</p>
+                </div>
+                <div onclick="window.location='https://discord.gg/dEJfZnfnbn';" class="flex justify-around bg-button-link-color hover:bg-[#e8e8e8] border-[#d6d6d6] border-[1.5px] rounded-full cursor-pointer w-auto h-[20px] items-center p-4 -m-2 gap-x-2">
+                    <img class="bg-icon-color rounded-full w-[20px] h-[20px] border-[#c9c9c9] border-[1.5px]" src="icons/discord_monochrome.png">
+                    <p class="text-position-link">Discord</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // -> Thanks | https://www.armandocanals.com/posts/CSS-transform-rotating-a-3D-object-perspective-based-on-mouse-position.html
+        let constrain = 350;
+
+        function transforms(x, y, el) {
+            let box = el.getBoundingClientRect();
+            let calcX = -(y - box.y - (box.height / 2)) / constrain;
+            let calcY = -(x - box.x - (box.width / 2)) / (constrain * (box.width / box.height));
+
+            return "perspective(100px) "
+                + "   rotateX("+ calcX +"deg) rotateY(" + calcY + "deg) ";
+        };
+
+        function transformElement(element, position) {
+            element.style.transform  = transforms.apply(null, position);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log("DOM Content has loaded");
+
+            document.querySelectorAll('.position-rectangle').forEach((holder) => {
+                holder.addEventListener('mousemove', (event) => {
+                    let xyPositionArray = [event.clientX, event.clientY];
+                    let position = xyPositionArray.concat([holder]);
+
+                    window.requestAnimationFrame(function(){
+                        transformElement(holder, position);
+                    });
+                });
+
+                holder.addEventListener('mouseleave', () => {
+                    holder.style.transform = 'rotateX(0deg) rotateY(0deg)'; // -> Reset rotation on mouse leave
+                });
+
+                console.log("Loaded 3D Transform effect for holder");
+            });
+        });
+        </script>
+</body>
+</html>

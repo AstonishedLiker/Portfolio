@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  },
+  "dependencies": {
+    "@designbycode/tailwindcss-text-stroke": "^1.2.1"
+  }
+}

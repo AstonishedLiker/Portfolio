@@ -1,0 +1,26 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./*.{html,js}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        rubik: ['Rubik', "sans-serif"],
+      },
+      fontSize: {
+        'label': '13px',
+        'small-title': '20px',
+        'position-title': '16px',
+        'position-link': '11px',
+      },
+      colors: {
+        'card-color': '#e9e9e9',
+        'icon-color': '#e3e5ea',
+        'button-link-color': '#f0f0f0',
+      }
+    },
+  },
+  plugins: [
+    require("@designbycode/tailwindcss-text-stroke"),
+  ],
+}
