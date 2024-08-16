@@ -664,6 +664,10 @@ video {
   justify-content: space-evenly;
 }
 
+.justify-items-center{
+  justify-items: center;
+}
+
 .gap-3{
   gap: 0.75rem;
 }
