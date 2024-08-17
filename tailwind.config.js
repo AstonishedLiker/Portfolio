@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        rubik: ['Rubik', "sans-serif"],
+        rubik: ["Rubik", "sans-serif"],
       },
       fontSize: {
         'label': '13px',
