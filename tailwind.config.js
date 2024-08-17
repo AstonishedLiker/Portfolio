@@ -18,6 +18,8 @@ module.exports = {
         'card-color': '#e9e9e9',
         'icon-color': '#e3e5ea',
         'button-link-color': '#f0f0f0',
+        'image-border-color': '#c9c9c9',
+        'button-image-hover-color': '#f7f7f7',
       }
     },
   },
