@@ -10,8 +10,9 @@ module.exports = {
       fontSize: {
         'label': '13px',
         'small-title': '20px',
-        'position-title': '16px',
-        'position-link': '11px',
+        'card-title': '16px',
+        'card-description': '13px',
+        'card-link': '11px',
       },
       colors: {
         'card-color': '#e9e9e9',

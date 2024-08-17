@@ -576,16 +576,8 @@ video {
   margin-left: auto;
 }
 
-.block{
-  display: block;
-}
-
 .flex{
   display: flex;
-}
-
-.table{
-  display: table;
 }
 
 .grid{
@@ -632,10 +624,6 @@ video {
   width: auto;
 }
 
-.max-w-\[250px\]{
-  max-width: 250px;
-}
-
 .max-w-\[650px\]{
   max-width: 650px;
 }
@@ -654,18 +642,6 @@ video {
 
 .justify-center{
   justify-content: center;
-}
-
-.justify-around{
-  justify-content: space-around;
-}
-
-.justify-evenly{
-  justify-content: space-evenly;
-}
-
-.justify-items-center{
-  justify-items: center;
 }
 
 .gap-3{
@@ -794,16 +770,20 @@ video {
   font-size: 29px;
 }
 
-.text-label{
+.text-card-description{
   font-size: 13px;
 }
 
-.text-position-link{
+.text-card-link{
   font-size: 11px;
 }
 
-.text-position-title{
+.text-card-title{
   font-size: 16px;
+}
+
+.text-label{
+  font-size: 13px;
 }
 
 .text-small-title{
