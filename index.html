@@ -6,85 +6,85 @@
     <link href="./output.css" rel="stylesheet">
     <title>Portfolio</title>
 </head>
-<body class="flex font-poppins items-center justify-center min-h-screen bg-[url('background.jpg')] bg-cover bg-no-repeat backdrop-blur-[1vmax] backdrop p-10"> <!-- I had to use vmax or the blur changes based on the zoom level...? Whatever, works now. -->
-    <div class="bg-[#f7f7f7] grid max-w-[650px] w-[650px] h-auto p-5 rounded-[10px] drop-shadow-lg mx-auto gap-3"> <!-- Hack fix for width -->
+<body class="flex font-poppins items-center justify-center min-h-screen bg-[url('background.jpg')] bg-cover bg-no-repeat backdrop-blur-[1vh] backdrop p-10">
+    <div class="bg-[#f7f7f7] grid max-w-[650px] w-[650px] h-auto p-5 rounded-[10px] drop-shadow-lg mx-auto gap-3">
         <p class="text-[29px] text-[#333333] font-semibold">Hey! 👋</p>
-        <p class="text-label text-[#333333]">
-            I'm Liker, a 14-year-old French UI designer and developer, passionate about creating stunning and user-friendly interfaces.
+        <p class="label">
+            I'm Liker, a 15-year-old French UI designer and developer.
         </p>
-        <p class="text-label text-[#333333]">
+        <p class="label">
             I'm fluent in both French and English (currently learning German), making it easy for me to collaborate with teams from around the world.
             I'm advancing my programming skills by exploring Compilers, C, C++, and Node.js, building on my strong background in C#, Lua (and Luau), and Python 3.
         </p>
-        <p class="text-label text-[#333333]">
-            I'm also interested in cybersecurity, and I'm working on ways to protect systems from bad actors.
+        <p class="label">
+            My main interest is cybersecurity, and I'm working on ways to protect systems from bad actors with my obfuscator "Aperture", and unique solutions for experiences.
         </p>
         <div class="flex items-center font-rubik gap-3 h-auto">
-            <img onclick="window.location='https://github.com/AstonishedLiker/';" class="bg-icon-color hover:bg-button-image-hover-color rounded-full w-[40px] h-[40px] border-[#c9c9c9] border-[1.5px] cursor-pointer" src="icons/github_monochrome.png">
-            <img onclick="window.location='https://discord.com/users/991295398780084334/';" class="bg-icon-color hover:bg-button-image-hover-color rounded-full w-[40px] h-[40px] border-[#c9c9c9] border-[1.5px] cursor-pointer" src="icons/discord_monochrome.png">
-            <img onclick="window.location='https://www.roblox.com/users/1114288509/profile';" class="bg-icon-color hover:bg-button-image-hover-color rounded-full w-[40px] h-[40px] border-[#c9c9c9] border-[1.5px] cursor-pointer" src="icons/roblox_monochrome.png">
+            <img onclick="window.location='https://github.com/AstonishedLiker/';" class="main-link" src="icons/github_monochrome.png">
+            <img onclick="window.location='https://discord.com/users/991295398780084334/';" class="main-link" src="icons/discord_monochrome.png">
+            <img onclick="window.location='https://www.roblox.com/users/1114288509/profile';" class="main-link" src="icons/roblox_monochrome.png">
         </div>
-        <div class="w-full h-[1px] bg-slate-800 bg-opacity-15 rounded-md my-[6px]"></div> <!-- Divider -->
-        <p class="text-small-title text-[#333333] font-semibold">Positions</p>
-        <div class="grid rounded-[6px] rotation-enabled-element bg-card-color border-[#d6d6d6] border-[1.5px] h-auto gap-4 p-4 perspective-1000"> <!-- Position Rectangle -->
-            <div class="flex items-center font-rubik gap-x-4"> <!-- Holds Position Icon and Position Title -->
-                <img class="bg-icon-color rounded-full w-[40px] h-[40px] border-[#c9c9c9] border-[1.5px]" src="icons/openac_monochrome.png">
-                <p class="text-card-title text-[#333333] font-medium">OpenAC</p>
-                <p class="text-card-description text-[#8c8c8c] ml-auto">Founder</p>
+        <div class="divider"></div>
+        <p class="section-title">Positions</p>
+        <div class="card-div rotation-enabled-element">
+            <div class="card-header">
+                <img class="card-icon" src="icons/openac_monochrome.png">
+                <p class="card-title">OpenAC</p>
+                <p class="card-description">Founder</p>
             </div>
-            <p class="text-label text-[#333333]">
+            <p class="label">
                 As the Founder of OpenAC, I worked with Unlimited_Objects (Co-Founder) and Müsli (Developer) to create a strong anticheat system that helps keep your game safe from cheaters.
                 OpenAC offers around-the-clock AI support, customized solutions, and advanced protection to stop cheaters in their tracks.
                 Plus, it's really easy to use with its simple API.
             </p>
-            <div class="flex items-center font-rubik bg-[#e2e2e2] border-[#d6d6d6] border-[1.5px] rounded-[12px] p-4 gap-6 h-auto">
-                <div onclick="window.location='https://open-ac.xyz/';" class="flex justify-center bg-button-link-color hover:bg-button-image-hover-color border-[#d6d6d6] border-[1.5px] rounded-full cursor-pointer w-auto h-[20px] items-center p-4 -m-2 gap-x-2">
-                    <img class="bg-icon-color rounded-full w-[20px] h-[20px] border-[#c9c9c9] border-[1.5px]" src="icons/website_monochrome.png">
+            <div class="card-links">
+                <div onclick="window.location='https://open-ac.xyz/';" class="card-link">
+                    <img class="card-link-icon" src="icons/website_monochrome.png">
                     <p class="text-card-link">Website</p>
                 </div>
-                <div onclick="window.location='https://github.com/Open-AC/';" class="flex justify-center bg-button-link-color hover:bg-button-image-hover-color border-[#d6d6d6] border-[1.5px] rounded-full cursor-pointer w-auto h-[20px] items-center p-4 -m-2 gap-x-2">
-                    <img class="bg-icon-color rounded-full w-[20px] h-[20px] border-[#c9c9c9] border-[1.5px]" src="icons/github_monochrome.png">
+                <div onclick="window.location='https://github.com/Open-AC/';" class="card-link">
+                    <img class="card-link-icon" src="icons/github_monochrome.png">
                     <p class="text-card-link">GitHub</p>
                 </div>
-                <div onclick="window.location='https://discord.gg/mWHmJgGtuP';" class="flex justify-center bg-button-link-color hover:bg-button-image-hover-color border-[#d6d6d6] border-[1.5px] rounded-full cursor-pointer w-auto h-[20px] items-center p-4 -m-2 gap-x-2">
-                    <img class="bg-icon-color rounded-full w-[20px] h-[20px] border-[#c9c9c9] border-[1.5px]" src="icons/discord_monochrome.png">
+                <div onclick="window.location='https://discord.gg/mWHmJgGtuP';" class="card-link">
+                    <img class="card-link-icon" src="icons/discord_monochrome.png">
                     <p class="text-card-link">Discord</p>
                 </div>
             </div>
         </div>
-        <div class="w-full h-[1px] bg-slate-800 bg-opacity-15 rounded-md my-[6px]"></div> <!-- Divider -->
-        <p class="text-small-title text-[#333333] font-semibold">Past Work</p>
-        <div class="grid rounded-[6px] rotation-enabled-element bg-card-color border-[#d6d6d6] border-[1.5px] h-auto gap-4 p-4 perspective-1000"> <!-- Work Rectangle -->
-            <div class="flex items-center font-rubik gap-x-4"> <!-- Holds Work Title -->
-                <p class="text-card-title text-[#333333] font-medium">SecureLuaVirtualMachine</p>
-                <p class="text-card-description text-[#8c8c8c] ml-auto">Lua Sandboxing Utility</p> <!-- Short Description -->
+        <div class="divider"></div>
+        <p class="section-title">Past Work</p>
+        <div class="card-div rotation-enabled-element">
+            <div class="card-header">
+                <p class="card-title">SecureLuaVirtualMachine</p>
+                <p class="card-description">Lua Sandboxing Utility</p>
             </div>
-            <p class="text-label text-[#333333]">
+            <p class="label">
                 SLVM (SecureLuaVirtualMachine) is a Lua VM designed for safely running untrusted user code in educational contexts, like Roblox tutorials.
                 Built on the FiOne Project by Rerumu, it offers features like closure hooking, read/write hooks, custom variables, and a rules system for blocking sensitive elements,
                 along with optional call sandboxing and loop throttling.
             </p>
-            <div class="flex items-center font-rubik bg-[#e2e2e2] border-[#d6d6d6] border-[1.5px] rounded-[12px] p-4 gap-6 h-auto">
-                <div onclick="window.location='https://devforum.roblox.com/t/secureluavirtualmachine-controlled-execution-environment/2774729';" class="flex justify-center bg-button-link-color hover:bg-button-image-hover-color border-[#d6d6d6] border-[1.5px] rounded-full cursor-pointer w-auto h-[20px] items-center p-4 -m-2 gap-x-2">
-                    <img class="bg-icon-color rounded-full w-[20px] h-[20px] border-[#c9c9c9] border-[1.5px]" src="icons/roblox_monochrome.png">
+            <div class="card-links">
+                <div onclick="window.location='https://devforum.roblox.com/t/secureluavirtualmachine-controlled-execution-environment/2774729';" class="card-link">
+                    <img class="card-link-icon" src="icons/roblox_monochrome.png">
                     <p class="text-card-link">DevForum</p>
                 </div>
             </div>
         </div>
-        <div class="grid rounded-[6px] rotation-enabled-element bg-card-color border-[#d6d6d6] border-[1.5px] h-auto gap-4 p-4 perspective-1000"> <!-- Work Rectangle -->
-            <div class="flex items-center font-rubik gap-x-4"> <!-- Holds Work Title -->
-                <p class="text-card-title text-[#333333] font-medium">Aperture</p>
-                <p class="text-card-description text-[#8c8c8c] ml-auto">Full Luau Obfuscator</p> <!-- Short Description -->
+        <div class="card-div rotation-enabled-element">
+            <div class="card-header">
+                <p class="card-title">Aperture</p>
+                <p class="card-description">Full Luau Obfuscator</p>
             </div>
-            <p class="text-label text-[#333333]">
+            <p class="label">
                 Aperture is a Full Luau Obfuscator, which I developed independently for OpenAC, designed to support the entire Luau syntax including types and compound assignement operations.
                 Aperture features cutting-edge protections such as an advanced anti-tamper, robust Program Counter (PC) protection, and constant encryption.
                 Its innovative "FlatZone" CF Obfuscation technology combines multiple techniques such as Control Flow Flattening and Block Splitting for heightened security.
                 Despite its advanced protection mechanisms, Aperture delivers blazingly fast performance, thanks to a handcrafted compiler that ensures optimal efficiency.
             </p>
-            <div class="flex items-center font-rubik bg-[#e2e2e2] border-[#d6d6d6] border-[1.5px] rounded-[12px] p-4 gap-6 h-auto">
-                <div onclick="window.location='https://discord.gg/mWHmJgGtuP';" class="flex justify-center bg-button-link-color hover:bg-button-image-hover-color border-[#d6d6d6] border-[1.5px] rounded-full cursor-pointer w-auto h-[20px] items-center p-4 -m-2 gap-x-2">
-                    <img class="bg-icon-color rounded-full w-[20px] h-[20px] border-[#c9c9c9] border-[1.5px]" src="icons/discord_monochrome.png">
+            <div class="card-links">
+                <div onclick="window.location='https://discord.gg/mWHmJgGtuP';" class="card-link">
+                    <img class="card-link-icon" src="icons/discord_monochrome.png">
                     <p class="text-card-link">Discord</p>
                 </div>
             </div>

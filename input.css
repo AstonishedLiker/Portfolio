@@ -4,3 +4,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .label {
+        @apply text-label text-[#333333]
+    }
+
+    .main-link {
+        @apply bg-icon-color hover:bg-button-image-hover-color rounded-full w-[40px] h-[40px] border-[#c9c9c9] border-[1.5px] cursor-pointer
+    }
+
+    .section-title {
+        @apply text-small-title text-[#333333] font-semibold
+    }
+
+    .divider {
+        @apply w-full h-[1px] bg-slate-800 bg-opacity-15 rounded-md my-[6px]
+    }
+
+    .card-div {
+        @apply grid rounded-[6px] bg-card-color border-[#d6d6d6] border-[1.5px] h-auto gap-4 p-4
+    }
+
+    .card-header {
+        @apply flex items-center font-rubik gap-x-4
+    }
+
+    .card-icon {
+        @apply bg-icon-color rounded-full w-[40px] h-[40px] border-[#c9c9c9] border-[1.5px]
+    }
+
+    .card-title {
+        @apply text-card-title text-[#333333] font-medium
+    }
+
+    .card-description {
+        @apply text-card-description text-[#8c8c8c] ml-auto
+    }
+
+    .card-links {
+        @apply flex items-center font-rubik bg-[#e2e2e2] border-[#d6d6d6] border-[1.5px] rounded-[12px] p-4 gap-6 h-auto
+    }
+
+    .card-link {
+        @apply flex justify-center bg-button-link-color hover:bg-button-image-hover-color border-[#d6d6d6] border-[1.5px] rounded-full cursor-pointer w-auto h-[20px] items-center p-4 -m-2 gap-x-2
+    }
+
+    .card-link-icon {
+        @apply bg-icon-color rounded-full w-[20px] h-[20px] border-[#c9c9c9] border-[1.5px]
+    }
+}
