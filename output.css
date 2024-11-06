@@ -707,20 +707,12 @@ video {
   display: grid;
 }
 
-.h-\[20px\]{
-  height: 20px;
-}
-
 .h-auto{
   height: auto;
 }
 
 .min-h-screen{
   min-height: 100vh;
-}
-
-.w-\[20px\]{
-  width: 20px;
 }
 
 .w-\[650px\]{
@@ -751,27 +743,9 @@ video {
   border-radius: 10px;
 }
 
-.rounded-full{
-  border-radius: 9999px;
-}
-
-.border-\[1\.5px\]{
-  border-width: 1.5px;
-}
-
-.border-\[\#c9c9c9\]{
-  --tw-border-opacity: 1;
-  border-color: rgb(201 201 201 / var(--tw-border-opacity));
-}
-
 .bg-\[\#f7f7f7\]{
   --tw-bg-opacity: 1;
   background-color: rgb(247 247 247 / var(--tw-bg-opacity));
-}
-
-.bg-icon-color{
-  --tw-bg-opacity: 1;
-  background-color: rgb(227 229 234 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'background\.jpg\'\)\]{
