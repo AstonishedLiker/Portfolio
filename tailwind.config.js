@@ -23,7 +23,4 @@ module.exports = {
       }
     },
   },
-  plugins: [
-    require("@designbycode/tailwindcss-text-stroke"),
-  ],
 }
